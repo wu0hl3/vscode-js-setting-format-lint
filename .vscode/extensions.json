@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "MS-CEINTL.vscode-language-pack-zh-hant",
+    "zhuangtongfa.material-theme",
+    "usernamehw.errorlens",
+    "ecmel.vscode-html-css",
+    "csstools.postcss",
+    "EditorConfig.EditorConfig",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint",
+    "stylelint.vscode-stylelint"
+  ]
+}

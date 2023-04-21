@@ -1,0 +1,24 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "plugins": ["html", "prettier"],
+  "parserOptions": {
+    "ecmaVersion": 2022,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "modules": true
+    }
+  },
+  "rules": {
+    "prettier/prettier": [
+      2,
+      {
+        "semi": true,
+        "singleQuote": true,
+        "tabWidth": 2,
+        "trailingComma": "es5",
+        "endOfLine": "crlf"
+      }
+    ]
+  },
+  "env": { "es6": true, "browser": true }
+}

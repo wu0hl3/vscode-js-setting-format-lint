@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-clean-order",
+  "overrides": [
+    {
+      "files": ["*.html", "**/*.html"],
+      "customSyntax": "postcss-html"
+    }
+  ]
+}
